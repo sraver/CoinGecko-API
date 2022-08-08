@@ -328,7 +328,7 @@ Official documentation: https://www.coingecko.com/api/docs/v3#/coins/get_coins__
 Params:
 
 - `contractAddress`: `String` - (Required) Token’s contract address
-- `assetPlatform`: `String` [default: `ethereum`] -  Asset platform (only `ethereum` is supported at this moment).
+- `assetPlatform`: `String` [default: `ethereum`] -  Asset platform
 
 Usage Example:
 ```javascript
@@ -346,7 +346,7 @@ Official documentation: https://www.coingecko.com/api/documentations/v3#/contrac
 Params:
 
 - `contractAddress`: `String` - (Required) Token’s contract address
-- `assetPlatform`: `String` [default: `ethereum`] -  Asset platform (only `ethereum` is supported at this moment).
+- `assetPlatform`: `String` [default: `ethereum`] -  Asset platform
 - `params`: `Object` - Parameters to pass through to the request
 - `params.vs_currency`: `String` [default: `usd`] - (Required) The target currency of market data (usd, eur, jpy, etc.)
 - `params.days`: `String` [default: `1`] - (Required) Data up to number of days ago (eg. 1,14,30,max)
@@ -366,7 +366,7 @@ Official documentation: https://www.coingecko.com/api/documentations/v3#/contrac
 Params:
 
 - `contractAddress`: `String` - (Required) Token’s contract address
-- `assetPlatform`: `String` [default: `ethereum`] -  Asset platform (only `ethereum` is supported at this moment).
+- `assetPlatform`: `String` [default: `ethereum`] -  Asset platform
 - `params`: `Object` - Parameters to pass through to the request
 - `params.vs_currency`: `String` [default: `usd`] - (Required) The target currency of market data (usd, eur, jpy, etc.)
 - `params.from`: `Number` - (Required) From date in UNIX Timestamp (eg. 1392577232)
@@ -610,7 +610,7 @@ Official documentation: https://www.coingecko.com/en/api#operations-simple-get_s
 Params:
 
 - `params`: `Object` - Parameters to pass through to the request
-- `assetPlatform`: `String` - [default: `ethereum`] - (Required) Asset platform (only ethereum is supported at this moment)
+- `assetPlatform`: `String` - [default: `ethereum`] - (Required) Asset platform
 - `params.contract_addresses`: `String|Array` - (Required) Token’s contract address
 - `params.vs_currencies`: `String|Array` - (Required) vs_currency of coins. Use `simple.supportedVsCurrencies()` for a list of vsCurrency ids.
 - `params.include_market_cap`: `Boolean` - [default: `false`] - Include market cap in results or not
